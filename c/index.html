@@ -45,7 +45,7 @@
   if (m) {
     var kind = m[1], n = parseInt(m[2], 10), ms = parseInt(m[4], 10);
     var label = kind === 'L' ? 'Level ' + n
-              : kind === 'D' ? 'Daily #' + (n - 20701)
+              : kind === 'D' ? 'Daily #' + (n - 20706)
               : kind === 'B' ? 'Big Thread'
               : m[3] + '×' + m[3] + ' challenge';
     var s = Math.floor(ms / 1000), t = Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2);
